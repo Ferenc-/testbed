@@ -41,7 +41,7 @@ mkdir -p /usr/share/ansible
 
 ansible-galaxy collection install --collections-path /usr/share/ansible/collections ansible.netcommon
 ansible-galaxy collection install --collections-path /usr/share/ansible/collections git+https://github.com/osism/ansible-collection-commons.git
-ansible-galaxy collection install --collections-path /usr/share/ansible/collections git+https://github.com/Ferenc-/ansible-collection-services.git
+ansible-galaxy collection install --collections-path /usr/share/ansible/collections git+https://github.com/osism/ansible-collection-services.git
 
 chmod -R +r /usr/share/ansible
 
